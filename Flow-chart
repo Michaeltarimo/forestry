@@ -1,0 +1,101 @@
+Tree Management System
+├── 1. User Management
+│   ├── 1.1 Admin Panel
+│   │   ├── User Management
+│   │   ├── Tree Nursery Management
+│   │   ├── Reports & Dashboard Access
+│   │   └── System Configuration
+│   ├── 1.2 Farmer Portal
+│   │   ├── Tree Request Submission
+│   │   ├── View Tree Allocations
+│   │   ├── Update Planting Status
+│   │   └── Dashboard Access
+│   └── 1.3 Staff Portal
+│       ├── Tree Inventory Management
+│       ├── Planting Site Monitoring
+│       ├── Growth Information Update
+│       └── Field Data Logging
+
+├── 2. Tree Nursery Management
+│   ├── 2.1 Tree Species Database
+│   │   ├── Add/Edit/Delete Species
+│   │   ├── View Species Details
+│   │   └── Search/Filter Species
+│   ├── 2.2 Inventory Management
+│   │   ├── Add/Edit/Delete Inventory
+│   │   ├── View Current Stock
+│   │   ├── Track Distributed Trees
+│   │   └── Manage Stock Levels
+│   └── 2.3 Distribution Records
+│       ├── Log Tree Distribution
+│       ├── View Distribution History
+│       └── Generate Distribution Reports
+
+├── 3. Farmer Information Management
+│   ├── 3.1 Farmer Database
+│   │   ├── Add/Edit/Delete Farmer Details
+│   │   ├── View Farmer Profiles
+│   │   └── Search/Filter Farmers
+│   ├── 3.2 Tree Request Portal
+│   │   ├── Tree Request Form
+│   │   ├── Track Request Status
+│   │   └── Manage Farmer Requests
+│   └── 3.3 Farmer Dashboard
+│       ├── View Tree Allocations
+│       ├── View Planting Status
+│       └── Access Pending Requests
+
+├── 4. Planting Site Monitoring
+│   ├── 4.1 Planting Records
+│   │   ├── Log Planting Activities
+│   │   ├── Update Planting Data
+│   │   └── View Planting History
+│   ├── 4.2 GIS Integration
+│   │   ├── Map Planting Sites
+│   │   ├── Track Tree Growth
+│   │   └── Monitor Survival Rates
+│   └── 4.3 Growth Tracking
+│       ├── Record Growth Data
+│       ├── Provide Care Instructions
+│       └── Generate Growth Reports
+
+├── 5. Reporting & Dashboards
+│   ├── 5.1 Nursery Dashboard
+│   │   ├── Overview of Tree Stock
+│   │   ├── Distribution Statistics
+│   │   └── Inventory Summary
+│   ├── 5.2 Planting Dashboard
+│   │   ├── Areas Planted Overview
+│   │   ├── Tree Type Statistics
+│   │   └── Survival Rate Data
+│   ├── 5.3 Farmer Dashboard
+│   │   ├── View Farmer Data
+│   │   ├── Tree Allocations Summary
+│   │   └── Planting History
+│   └── 5.4 Reports
+│       ├── Generate Detailed Reports
+│       ├── Export Reports (PDF/Excel)
+│       └── Customizable Report Templates
+
+├── 6. Tree Request Portal
+│   ├── 6.1 Tree Request Form
+│   │   ├── Specify Tree Types
+│   │   ├── Enter Quantity Required
+│   │   └── Submit Request
+│   ├── 6.2 Request Status
+│   │   ├── View Request Progress
+│   │   └── Update Request Status
+│   └── 6.3 Farmer Notifications
+│       ├── Notify Farmers on Request Approval
+│       ├── Notify Farmers on Tree Allocation
+│       └── Notify Farmers on Delivery
+
+└── 7. Mobile App (Optional)
+    ├── 7.1 Farmer Access
+    │   ├── Tree Request Submission
+    │   ├── View Dashboard
+    │   └── Update Planting Status
+    └── 7.2 Field Monitoring
+        ├── Log Planting Activities
+        ├── Update Tree Growth Data
+        └── View Planting Site Maps
