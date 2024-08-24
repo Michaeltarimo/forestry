@@ -3,21 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Page</title>
+    <title>Foresty Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="navbar-container"></div>
+<body class="bg-gray-100 flex flex-col h-screen">
+    <!-- Header -->
+    <header class="bg-green-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-lg font-bold">Foresty</div>
+        </div>
+    </header>
 
-    <main class="p-8">
-        <h1 class="text-3xl font-bold text-center">Welcome to My Website</h1>
-        <p class="text-center mt-4">This is a simple page with a navbar and footer.</p>
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Foresty</h1>
+            <p class="text-lg mb-8">Your solution for managing tree planting and tracking. Please select your role to proceed.</p>
+            
+            <div class="flex justify-center space-x-4 mb-8">
+                <a href="/Farmer/login/" class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600">Farmer Login</a>
+                <a href="/Admin/index.html" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Admin Login</a>
+            </div>
+
+            <p class="text-sm">
+                Not registered yet? <a href="/register" class="text-blue-500 hover:underline">Register here</a>.
+            </p>
+        </div>
     </main>
 
-    <div id="footer-container"></div>
-
-    <script src="scripts/main.js"></script>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2024 Foresty. All rights reserved.</p>
+            <p>
+                <a href="/privacy-policy" class="hover:underline">Privacy Policy</a> | 
+                <a href="/terms-and-conditions" class="hover:underline">Terms and Conditions</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

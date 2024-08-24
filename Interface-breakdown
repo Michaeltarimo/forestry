@@ -1,0 +1,131 @@
+Landing Page
+├── Farmer Login
+│   └── Farmer Dashboard
+│       ├── Overview Section
+│       │   ├── Display Total Trees Allocated
+│       │   ├── Show Number of Trees Planted
+│       │   ├── Pending Requests Summary
+│       │   └── Visual Charts for Planting Stats
+│       ├── Tree Allocations
+│       │   ├── List of Allocated Tree Species
+│       │   ├── Quantity Allocated
+│       │   ├── Planting Status
+│       │   └── Date of Allocation
+│       ├── Planting Status Update
+│       │   ├── Input Field for Update Status
+│       │   ├── Date of Planting
+│       │   └── Submit Button for Status Update
+│       ├── Pending Requests
+│       │   ├── List of Tree Requests
+│       │   ├── Request Date
+│       │   ├── Status (Pending, Approved, Rejected)
+│       │   └── View Details Button
+│       └── Navigation Menu
+│           ├── Link to Tree Request Form
+│           ├── Link to Profile Settings
+│           └── Link to Logout
+│
+├── Admin Login
+│   └── Admin Dashboard
+│       ├── User Management Panel
+│       │   ├── List of Users (Admins, Farmers, Staff)
+│       │   ├── Add New User Button
+│       │   ├── Edit/Delete User Actions
+│       │   ├── Role Assignment Dropdown
+│       │   └── Search and Filter Options
+│       ├── Tree Inventory Overview
+│       │   ├── Current Stock Summary
+│       │   ├── Visual Pie Charts for Stock Distribution
+│       │   ├── Recent Tree Distribution Logs
+│       │   └── Stock Management Buttons (Add, Remove, Update)
+│       ├── Reports Access
+│       │   ├── Generate Report Button
+│       │   ├── Report Type Selection (Nursery, Planting, Farmer)
+│       │   ├── Export Options (PDF, Excel)
+│       │   └── View Past Reports
+│       └── Navigation Menu
+│           ├── Link to Tree Nursery Management
+│           ├── Link to User Management
+│           ├── Link to Reports
+│           └── Link to Logout
+│
+├── Tree Request Form (Farmer)
+│   ├── Form Header
+│   │   ├── Title: "Request Trees"
+│   │   └── Brief Instructions/Guidelines
+│   ├── Form Fields
+│   │   ├── Dropdown for Tree Species Selection
+│   │   ├── Input Field for Quantity
+│   │   ├── Date Picker for Preferred Planting Date
+│   │   └── Text Area for Additional Notes
+│   ├── Submit Section
+│   │   ├── Submit Button
+│   │   └── Cancel Button
+│   ├── Validation Messages
+│   │   ├── Required Field Alerts
+│   │   ├── Success Message on Submission
+│   │   └── Error Message for Invalid Input
+│   └── Request Status Indicator
+│       ├── Show Progress of Submitted Requests
+│       ├── Approval/Rejection Status
+│       └── Estimated Delivery Date (if applicable)
+│
+├── Tree Nursery Management Interface (Admin)
+│   ├── Tree Species Database
+│   │   ├── List of Tree Species
+│   │   ├── Add New Species Button
+│   │   ├── Edit/Delete Species Actions
+│   │   └── Search/Filter Species
+│   ├── Inventory Management
+│   │   ├── Current Stock Table
+│   │   ├── Stock Level Indicators (Low, Sufficient)
+│   │   ├── Update Stock Button
+│   │   ├── Distribution Logs
+│   │   └── Restock/Deplete Stock Actions
+│   ├── Distribution Records
+│   │   ├── Log New Distribution Form
+│   │   ├── View Past Distributions
+│   │   ├── Filter by Date/Tree Species
+│   │   └── Export Distribution Data
+│   └── Navigation Menu
+│       ├── Link to Dashboard
+│       ├── Link to Inventory Management
+│       ├── Link to Tree Species Database
+│       └── Link to Logout
+│
+├── GIS-Based Planting Site Map Interface
+│   ├── Interactive Map Display
+│   │   ├── Map with Planting Site Markers
+│   │   ├── Zoom In/Out Controls
+│   │   └── Pan Functionality
+│   ├── Site Information Popups
+│   │   ├── Display Planting Site Details on Click
+│   │   ├── Tree Type and Quantity
+│   │   ├── Planting Date
+│   │   └── Growth Status
+│   ├── Layer Toggle
+│   │   ├── Toggle for Different Layers (Tree Types, Growth Stages)
+│   │   └── Legend for Layer Meanings
+│   └── Map Filters
+│       ├── Filter Sites by Date
+│       ├── Filter by Tree Species
+│       └── Filter by Survival Rate
+│
+└── Login and Registration Pages
+    ├── Login Page
+    │   ├── Login Form (Username, Password)
+    │   ├── Remember Me Checkbox
+    │   ├── Forgot Password Link
+    │   └── Submit Button
+    ├── Registration Page (if applicable)
+    │   ├── Registration Form (Username, Email, Password, Confirm Password)
+    │   ├── Role Selection (Admin, Farmer, Staff)
+    │   ├── Terms and Conditions Checkbox
+    │   └── Submit Button
+    ├── Authentication Messages
+    │   ├── Invalid Login Alert
+    │   ├── Successful Registration Alert
+    │   └── Password Reset Link Sent Message
+    └── Navigation Links
+        ├── Link to Registration Page
+        └── Link to Home
